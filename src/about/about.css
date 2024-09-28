@@ -1,0 +1,29 @@
+.about, .resume , .portfolio{
+    padding: 1rem 2rem;
+    margin: 0;
+    height: auto;
+}
+
+
+.title h2{
+    text-align: left;
+    font-size: 1.8rem;
+    margin-top: 0;
+    text-transform: capitalize;
+   
+}
+.about,.resume, .portfolio{
+    hr{
+        width: 7%;
+        margin-left: 0;
+        height: .2rem;
+        background-color: gold;
+        border: none;
+        margin-bottom: 2rem;
+    }
+    
+    
+}
+.desc p{
+    text-align: justify;
+}

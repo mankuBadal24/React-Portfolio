@@ -1,0 +1,50 @@
+.portfolio-content{
+    display: flex;
+    justify-content:space-between;
+    flex-wrap: wrap;
+    height: auto;
+}
+
+.project {
+    width: 27%;
+    border: 1px solid white;
+    display: flex;
+    flex-direction: column;
+    text-transform: capitalize;
+    align-items: center;
+    justify-content: center;
+    padding: .5rem;
+    transition-duration: .3s;
+    border-radius: 1rem;
+   margin-bottom: 2rem;
+   height: auto;
+
+}
+.project a{
+    color: white;
+    text-decoration: none;
+    flex: 1;
+    
+}
+.project .project_image{
+    height: 50%;
+    width: 100%;
+}
+
+.project img{
+    width: 100%;
+    object-fit: cover;
+    border-radius: 1rem 1rem 0 0;
+    
+}
+.project h2{
+    font-size: 1.5rem;
+    margin-top: 2rem;
+}
+.project:hover{
+    transform: scale(1.1);
+    background-color: white;
+    a{
+        color: black;
+    }
+}

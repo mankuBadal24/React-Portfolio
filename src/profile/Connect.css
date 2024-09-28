@@ -1,0 +1,63 @@
+.container{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    line-height: .5;
+    margin: 1rem 0;
+    transition-duration: .5s;
+}
+.container:hover{
+    .icon{
+        background-color: gold;
+        color: rgb(59, 56, 56);
+    }
+    h3{
+        color: white;
+    }
+}
+.container .icon {
+    font-size: 2rem;
+    color: gold;
+    background-color: rgb(59, 56, 56);
+    padding: .8rem;
+    border-radius: .9rem;
+}
+
+.content{
+    text-align: left;
+    margin-left: 1rem;
+}
+.content h3{
+    text-transform: uppercase;
+    font-size: 1.2rem;
+    color: rgb(115, 116, 116);
+    margin-top: 0;
+    
+    
+}
+
+.content a{
+    font-size: 1rem;
+    cursor: pointer;
+    text-decoration: none;
+    color: white;
+  
+}
+.socialTab{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+}
+.social{
+    font-size: 1.5rem;
+
+}
+.social a{
+    color: white;
+
+}
+.social a:hover{
+    color: rgb(115, 116, 116);
+}

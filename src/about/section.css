@@ -1,0 +1,58 @@
+
+.work{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+
+  
+    align-items: center;
+    justify-content: space-around;
+}
+.section{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 40%;
+    text-transform:capitalize;
+    padding: 1rem;
+    background-color: rgb(50, 47, 47);
+    border-radius: 1rem;
+    box-shadow: 1px 1px 10px black;
+    margin: 1rem;
+    cursor: pointer;
+    transition-duration:.5s ;
+}
+
+.section .icon{
+    width: 40%;
+}
+.section img{
+    width: 100%;
+    object-fit: cover;
+    color: gold;
+    
+}
+.section .content{
+    width: 100%;
+    
+}
+.title{
+    font-size: 1.5rem;
+    font-weight: 500;
+    margin-bottom: 1rem;
+
+}
+.section .desc{
+    font-weight: 300;
+}
+.section:hover{
+    transform: scale(1.1);
+    background-color: white;
+    .title{
+        color: black;
+        font-weight: 700;
+    }
+    .desc{
+        color: black;
+    }
+}
