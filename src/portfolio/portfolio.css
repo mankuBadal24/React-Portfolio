@@ -7,7 +7,8 @@
 
 .project {
     width: 27%;
-    border: 1px solid white;
+    /* border: 2px solid black; */
+    box-shadow: 1px 1px 10px black;
     display: flex;
     flex-direction: column;
     text-transform: capitalize;
@@ -18,7 +19,6 @@
     border-radius: 1rem;
    margin-bottom: 2rem;
    height: auto;
-
 }
 .project a{
     color: white;
@@ -34,7 +34,8 @@
 .project img{
     width: 100%;
     object-fit: cover;
-    border-radius: 1rem 1rem 0 0;
+    border-radius: 1rem 1rem 1rem 1rem;
+    height: 100%;
     
 }
 .project h2{
@@ -43,7 +44,7 @@
 }
 .project:hover{
     transform: scale(1.1);
-    background-color: white;
+    background-color: gold;
     a{
         color: black;
     }

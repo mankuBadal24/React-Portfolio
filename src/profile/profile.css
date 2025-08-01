@@ -1,8 +1,22 @@
-.profile-container{
-    width: 20%;
-    padding: 1rem;
-    background-color: #242424;
-    border-radius: 1rem;
-    scroll-behavior: smooth;
-    height: auto;
+.profile-container {
+  width: 100%;
+  max-width: 400px;
+  padding: 1rem;
+  background-color: #242424;
+  border-radius: 1rem;
+  height: 100%;
+  margin: 0 auto;
+}
+
+@media screen and (max-width: 768px) {
+  .profile-container {
+    width: 90%;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .profile-container {
+    width: 100%;
+    padding: 0.8rem;
+  }
 }

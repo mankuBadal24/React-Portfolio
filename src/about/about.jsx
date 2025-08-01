@@ -3,9 +3,10 @@ import React from 'react'
 import { Title } from './title'
 import { Desc } from './desc'
 import { WorkComponent } from './workComponent'
-import img from "../assets/image.png"
+// import img from "../assets/image.png"
 import img2 from "../assets/web-development.png"
-import img3 from "../assets/android.png"
+import img1 from "../assets/svg/flutter.svg"
+// import img3 from "../assets/android.png"
 import img4 from "../assets/java_img.png"
 import img5 from "../assets/spring_icon.png"
 
@@ -20,9 +21,9 @@ export const About = () => {
     <Title title={"What I'm Doing"}/>
     <hr />
     <div className="work">
-    <WorkComponent icon={img} title="web design" desc="the most modern and high-quality design made at a professional level"/>
+    {/* <WorkComponent icon={img} title="web design" desc="the most modern and high-quality design made at a professional level"/> */}
     <WorkComponent icon={img2} title="web developer" desc="High quality development of sites at the professional level"/>
-    <WorkComponent icon={img3} title="Android Developer" desc="the interface and Back-End development in JAVA and FLUTTER both at a professional level"/>
+    <WorkComponent icon={img1} title="Flutter Developer" desc="the interface and Back-End development in JAVA and FLUTTER both at a professional level"/>
     <WorkComponent icon={img4} title="java developer" desc="developing web apps in Java with OOPs concepts at a professional level"/>
     <WorkComponent icon={img5} title="Spring Boot" desc="developing microservices & REST Apis in Java "/>
     </div>
